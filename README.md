@@ -4,7 +4,7 @@
 ![Docker](https://img.shields.io/badge/Docker-Ready-blue)
 ![Python](https://img.shields.io/badge/Python-3.12-green)
 
-**CI/CD Pipeline Demo: Python Flask App → Docker → AWS EC2**
+**CI/CD Pipeline: Python Flask App → Docker → AWS EC2**
 
 This repository demonstrates a full **CI/CD pipeline** for a simple Flask web application.  
 Commits pushed to the `main` branch trigger automatic Docker builds and pushes via **GitHub Actions**.
@@ -159,8 +159,8 @@ MIT License © Ajay Nikam
 
 | Marker | Description |
 |--------|-------------|
-| ```python | Python code (`app.py`) |
-| ```dockerfile | Dockerfile code |
-| ```yaml | GitHub Actions workflow |
-| ```bash | Deployment commands |
-| ```text | ASCII architecture diagram |
+| python | Python code (`app.py`) |
+| dockerfile | Dockerfile code |
+| yaml | GitHub Actions workflow |
+| bash | Deployment commands |
+| text | ASCII architecture diagram |
